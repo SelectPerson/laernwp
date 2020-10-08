@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+input {
+	outline: 0;
+	border: 0;
+	padding: 20px 10px 20px 20px;
+	border-radius: 10px;
+	border: solid 1px grey;
+	font-size: 20px;
+	display: block;
+}
+
+input:focus {
+	outline: 0;
+}
+
+button {
+	outline: 0;
+	border: 0;
+	background-color: green;
+	color: white;
+	text-transform: uppercase;
+	padding: 20px 20px;
+	cursor: pointer;
+}
+
+body {
+	background-color: #D3D8E8;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+/*input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}*/
+
+/*::-webkit-scrollbar {
+    display: none;
+}
+*/
+
+/* Header */
+
+.header {
+	height: 100px;
+	background-color: blue;
+}
+
+h1.header__h1 {
+	line-height: 100px;
+	color: white;
+	padding-left: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Footer */
+
+footer.footer {
+	background-color: white;
+	height: 100px;
+	width: 100%;
+	margin-top: 100px;
+}
+
+h1.footer__h1 {
+	line-height: 100px;
+	color: black;
+	padding-left: 100px;
+}

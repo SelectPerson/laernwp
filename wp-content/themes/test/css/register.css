@@ -1,0 +1,56 @@
+.wrapper_register {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
+	margin-top: 140px;
+	
+}
+
+.register__image {
+	margin-top: 100px;
+	width: 30%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.register__block {
+	width: 30%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+
+h1.register__h1 {
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+
+input.register__input {
+	margin-bottom: 20px;
+}
+
+.register__block__button {
+
+
+}
+
+button.register__button {
+	margin-top: 20px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	cursor: pointer;
+	border-radius: 6px;
+}

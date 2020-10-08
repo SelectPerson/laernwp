@@ -1,0 +1,393 @@
+main.wrapper__main {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.main__left {
+	width: 20%;
+}
+
+.main__right {
+	width: 80%;
+}
+
+ul.main__list {
+	margin-top: 40px;
+
+}
+
+a.main__list__elem__a {
+	background-color: white;
+	padding: 20px 20px;
+	margin-bottom: 1px;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-indent: 10px;
+}
+
+a.main__list__select {
+	background-color: blue;
+	color: white;
+}
+
+/* Main Right List */
+
+.main__right__inner {
+	width: 80%;
+	margin: 40px auto 0;
+
+}
+
+.right__inner__high {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 40px;
+}
+
+/* Add MarkBook */
+
+.right__add__window {
+	background-color: white;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: none;
+
+}
+
+.add__window__main {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	justify-content: space-around;
+	margin-top: 60px;
+}
+
+.right__add__markbook {
+
+
+}
+
+li.add__window__main__elem {
+	margin-bottom: 20px; 
+	width: 100%;
+
+}
+
+input.right__add__markbook__input {
+	width: calc(100% - 40px);
+}
+
+.markbook__inner__left {
+	width: 40%;
+	/* height: 123%; */
+}
+
+.add__window__main__inner {
+	width: 40%;
+}
+
+textarea#add__markboob__textarea {
+	width: 100%;
+	height: 76%;
+	resize: none;
+	font-size: 16px;
+	padding: 20px;
+	border-radius: 10px;
+	outline: 0;
+}
+
+
+ul.main__right__bookmark {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	background-color: white;
+	margin-bottom: 40px;
+	justify-content: space-around;
+	padding: 20px 10px;
+}
+
+h2.main__right__title__h2 {
+	
+	background-color: blue;
+	color: white;
+	text-align: center;
+	padding: 20px 20px;
+	text-transform: uppercase;
+}
+
+li.main__right__bookmark__elem {
+	margin-top: 50px;
+	width: 40%;
+	margin-left: 5%;
+	line-height: 35px;
+}
+
+.main__right__category__inner {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 20px;
+	
+}
+
+
+button.main__right__button {
+	/*width: 200px;*/
+	font-size: 16px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+button.main__right__button__save {
+	/*width: 200px;*/
+	font-size: 16px;
+	border-radius: 6px;
+	cursor: pointer;
+	margin-left: 16px;
+}
+
+ul.main__right__addtime {
+	margin-bottom: 50px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	background-color: white;
+}
+
+.main__right__addtime__input {
+	border: solid 1px #eee;
+	box-sizing: border-box;
+
+	width: 60%;
+	padding: 20px 10px;
+}
+
+li.main__right__addtime__elem {
+	width: 25%;
+	border: solid 1px #eee;
+}
+
+ul.main__right__list {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	background-color: white;
+	justify-content: center;
+
+
+}
+
+li.main__right__list__elem {
+	border: solid 1px #eee;
+	box-sizing: border-box;
+	width: 17%;
+	padding: 20px 14px;
+
+}
+
+.select__button { 
+	background-color: red;
+}
+
+
+/* Save Markbook */
+
+button#save_markbook {
+	width: 100%;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: blue;
+}
+
+/* Time */
+
+li.inner__time__elem {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	height: 340px;
+	justify-content: space-between;
+}
+.inner__time__data {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 98%;
+    justify-content: space-between;
+
+}
+.inner__time__from {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 100%;
+ 
+
+}
+
+.inner__time__to {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 100%;
+ 
+}
+
+.inner__time__effective {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	
+}
+
+input.inner__time__effective__input {
+	padding: 14px 16px 14px 16px;
+	width: 140px;
+	background-color: white;
+}
+
+input.input__type__data {
+	padding: 10px 20px;
+	color: grey;
+}
+
+input.input__type__number {
+	padding: 14px 16px 14px 16px;
+	width: 50px;
+}
+
+input.input__type__number__second {
+	margin-left: 20px;
+}
+
+span.time__span {
+	font-size: 24px;
+	width: 182px;
+	color: grey;
+	display: block;
+	box-sizing: border-box;
+	padding-top: 12px;
+}
+
+span.time__data__span {
+	width: 120px;
+}
+
+span.time__span__effective {
+	width: 190px;
+	font-size: 24px;
+	color: grey;
+	display: block;
+	box-sizing: border-box;
+	padding-top: 12px;
+}
+
+/* Filter Record Data */
+
+.date__filter__first {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	margin-top: -40px;
+	margin-bottom: 40px;
+	    width: 360px;
+}
+
+span.date__filter__span {
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	text-indent: 20px;
+}
+
+input.date__filter__input {
+	padding: 15px 20px;
+	border-radius: 0;
+	border: 0;
+}
+
+
+@media screen and (max-width: 1200px) {
+	.main__left {
+		margin-top: 20px;
+		width: 94%;
+		margin: 20px auto;
+    	background: white;
+	}
+	ul.main__list {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		margin: 0 auto;
+	} 
+	a.main__list__elem__a {
+		white-space: nowrap;
+	}
+	.wrapper__main {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.main__right {
+		width: 94%;
+		margin: 0 auto;
+	}
+	.main__right__inner {
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 1000px) {
+	li.main__right__bookmark__elem {
+		
+		width: 80%; 
+	} 
+}
+ 
+

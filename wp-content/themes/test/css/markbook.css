@@ -1,0 +1,65 @@
+ul.main__right__bookmark {
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+li.main__right__bookmark__elem {
+
+}
+
+
+h3.priority__list {
+	background-color: blue;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	width: 240px;
+	padding: 0px 20px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+span.pririty__list__first {
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding-top: 4px;
+}
+
+.pririty__list__second {
+    padding-top: 8px;
+    margin-left: 20px;
+}
+
+ul.priority__select {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	width: 280px;
+
+	display: none;
+	
+
+}
+
+li.priority__select__elem {
+	background-color: blue;
+	color: white;
+	margin-top: 1px;
+	width: 240px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 6px 20px;
+	cursor: pointer;
+	text-indent: 24px;
+	font-size: 16px;
+}
